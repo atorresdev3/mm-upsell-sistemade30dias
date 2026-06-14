@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1D2D42" />
+      <stop offset="50%" style="stop-color:#0C1825" />
+      <stop offset="100%" style="stop-color:#030507" />
+    </linearGradient>
+    <!-- Highly saturated gold gradient matching the original: bright yellow-gold top, deep amber/rust bottom -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#FFF09A" />
+      <stop offset="10%"  stop-color="#FFD940" />
+      <stop offset="30%"  stop-color="#F4A012" />
+      <stop offset="50%"  stop-color="#E07010" />
+      <stop offset="70%"  stop-color="#C04808" />
+      <stop offset="85%"  stop-color="#961E05" />
+      <stop offset="100%" stop-color="#6A0E03" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1024" height="1024" rx="190" ry="190" fill="url(#bgGrad)"/>
+  
+  <!-- "30" - slightly smaller to fit well, vertically centered -->
+  <text 
+    x="512" 
+    y="680" 
+    text-anchor="middle" 
+    dominant-baseline="auto"
+    font-family="Arial Black, Arial, sans-serif"
+    font-weight="900"
+    font-size="560"
+    fill="url(#goldGrad)"
+    letter-spacing="-10"
+  >30</text>
+</svg>
